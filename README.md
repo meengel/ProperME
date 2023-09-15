@@ -26,6 +26,6 @@ It is planned to implement an automatic parsing for the dependent getters and se
 
 ## Citation
 If you use this software in any way, please reference the repository and the following people in the given order:
-Michael Engel
+- Michael Engel
 
 Please note that there is NO warranty or anything similar for what you do with it!
