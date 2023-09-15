@@ -12,13 +12,13 @@ You only need numpy and dill (a very useful package for pickling as a side note)
 
 ## Usage
 Simply write down which other getting-methods you used for each getter and relax!
-That depending-dictionary is necessary for initializing a class attribute which is used for decorating tha class methods afterwards.
+That depending-dictionary is necessary for initializing a class attribute which is used for decorating the class methods afterwards.
 The dependency graph, i.e. which attributes affect others, is computed automatically then - even across multiple levels of dependency.
 
 The attributes given or set by the respective methods have to be labelled starting with an underscore, e.g. "_radius".
 Further, the getters and setters have to be labelled accordingly, e.g. "get_radius" or "set_radius".
 
-Please have a look at [TEST_ProperME.py]() which gives a small example of how to use ProperME properly.
+Please have a look at [TEST_ProperME.py](https://github.com/meengel/ProperME/blob/main/TEST_ProperME.py) which gives a small example of how to use ProperME properly.
 
 ## Future
 It is planned to implement an automatic parsing for the dependent getters and setters.
