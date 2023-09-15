@@ -17,6 +17,7 @@ The dependency graph, i.e. which attributes affect others, is computed automatic
 
 The attributes given or set by the respective methods have to be labelled starting with an underscore, e.g. "_radius".
 Further, the getters and setters have to be labelled accordingly, e.g. "get_radius" or "set_radius".
+For serialization purposes (using dill or pickle, for example), the name of the computegraph within the instance has to be the same as given to the initialization of the class attribute decorator class (keyword argument "computegraphname").
 
 Please have a look at [TEST_ProperME.py](https://github.com/meengel/ProperME/blob/main/TEST_ProperME.py) which gives a small example of how to use ProperME properly.
 
