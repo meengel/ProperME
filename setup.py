@@ -1,6 +1,4 @@
-from setuptools import setup, find_packages
-import os
-from typing import List
+from setuptools import setup
 
 setup(
     name = "ProperME",
